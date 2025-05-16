@@ -77,9 +77,12 @@ h1 {
 @media (max-width: 480px) {
     .card {
         width: 325px;
+        margin-top: 20px;
     }
     .attribution {
+        position: relative;
         flex-direction: column;
-        align-items: center;
+        margin-top: 100px;
+        text-align: center;
     }
 }
