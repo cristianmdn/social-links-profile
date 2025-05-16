@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL here](https://github.com/cristianmdn/social-links-profile)
-- [Live site URL here](https://crm-social-media-links.netlify.app/)
+- [Live site URL here](https://crm-social-links.netlify.app/)
 
 ## My process
 
