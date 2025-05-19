@@ -8,11 +8,8 @@ body {
     font-size: 14px;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .card {
@@ -24,6 +21,7 @@ body {
     padding: 40px 0 40px 0;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
+    margin-top: 150px;
 }
 .card img {
     border-radius: 50%;
@@ -65,9 +63,10 @@ h1 {
 }
 .attribution {
     display: flex;
-    position: absolute;
     gap: 10px;
     bottom: 50px;
+    overflow: hidden;
+    margin-top: 100px;
 }
 .attribution a {
     text-decoration: none;
@@ -77,8 +76,11 @@ h1 {
 @media (max-width: 480px) {
     .card {
         width: 325px;
+        margin-top: 20px;
     }
     .attribution {
-        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin: 40px 0 20px 0;
     }
 }
